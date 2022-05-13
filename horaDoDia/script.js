@@ -8,15 +8,15 @@ function carregar (){
     msg.innerHTML = `Agora são ${hora}:${minutos}:${segundos}hs` 
     if (hora >=0 && hora < 12) {
         //BOM DIA!
-        img.src = 'fotomanha.png'
+        img.src = 'bancodefotos/fotomanha.png'
     }
     else if (hora >= 12 && hora <= 18) {
         //BOA TARDE!
-        img.src = 'fototarde.png'
+        img.src = 'bancodefotos/fototarde.png'
     }
     else {
         //Boa noite!
-        img.scr = 'fotonoite1.png'
+        img.scr = 'bancodefotos/fotonoite1.png'
     }
 }
 
